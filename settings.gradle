@@ -13,4 +13,6 @@ dependencyResolutionManagement {
     }
 }
 rootProject.name = "MaskAI"
-include ':app'
+ include ':app'
+project(':app').projectDir = new File('.')
+
